@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
     }
   };
 
-  const adminEmail = adminUser?.email || 'mo22menmo7ammed@gmail.com';
+  const adminEmail = adminUser?.email || 'Administrator';
 
   return (
     <header className="top-header">
